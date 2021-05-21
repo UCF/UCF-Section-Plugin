@@ -29,7 +29,8 @@ const ucfSectionMediaUpload = ($) => {
         text: 'Use this stylesheet'
       },
       library: {
-        text: 'text/css'
+        text: ['text/css', 'text/plain'],
+        search: '.css'
       },
       multiple: false
     });
@@ -60,7 +61,8 @@ const ucfSectionMediaUpload = ($) => {
         text: 'Use this JavaScript'
       },
       library: {
-        type: 'application/javascript'
+        type: ['application/javascript', 'text/javascript', 'text/plain'],
+        search: '.js'
       },
       multiple: false
     });
