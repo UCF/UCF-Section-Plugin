@@ -29,7 +29,8 @@ const ucfSectionMediaUpload = ($) => {
         text: 'Use this stylesheet'
       },
       library: {
-        text: 'text/css'
+        text: ['text/css', 'text/plain'],
+        search: '.css'
       },
       multiple: false
     });
