@@ -60,7 +60,7 @@ const ucfSectionMediaUpload = ($) => {
         text: 'Use this JavaScript'
       },
       library: {
-        type: 'application/javascript'
+        type: ['application/javascript', 'text/javascript', 'text/plain']
       },
       multiple: false
     });
