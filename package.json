@@ -23,8 +23,5 @@
   },
   "browserslist": [
     "last 2 versions"
-  ],
-  "dependencies": {
-    "npm-check-updates": "^7.0.1"
-  }
+  ]
 }
