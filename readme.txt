@@ -2,8 +2,8 @@
 Contributors: ucfwebcom
 Tags: ucf, sections
 Requires at least: 4.7.5
-Tested up to: 5.2.2
-Stable Tag: 1.0.15
+Tested up to: 5.3
+Stable Tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -35,6 +35,11 @@ The `[ucf-section]` shortcode has several options:
 
 
 == Changelog ==
+
+= 1.1.3 =
+Enhancements:
+* Modified filtering options for files that are selectable from the media library modal when choosing a CSS or JS file for a page/post.  Both CSS and JS will now be filtered by their respective file extensions by default (to filter out other files with the `text/plain` type), CSS filtering now includes the `text/plain` type, and JS filtering now includes the `text/javascript` type.
+* Updated packages.
 
 = 1.1.2 =
 Bug Fixes:
