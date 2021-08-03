@@ -29,6 +29,11 @@ The `[ucf-section]` shortcode has several options:
 
 ## Changelog ##
 
+### 1.2.0 ###
+Bug Fixes:
+* Replaces `wp_make_content_images_responsive` with `wp_filter_content_tags`, which was introduced in WP 5.5.
+* Keeps call to the old function if the new one doesn't exist for backwards compatibility.
+
 ### 1.1.3 ###
 Enhancements:
 * Modified filtering options for files that are selectable from the media library modal when choosing a CSS or JS file for a page/post.  Both CSS and JS will now be filtered by their respective file extensions by default (to filter out other files with the `text/plain` type), CSS filtering now includes the `text/plain` type, and JS filtering now includes the `text/javascript` type.

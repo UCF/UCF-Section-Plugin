@@ -111,6 +111,10 @@ if ( ! class_exists( 'UCF_Section_Common' ) ) {
 
 			}
 
+			if ( function_exists( 'wp_filter_content_tags' ) ) {
+				return wp_filter_content_tags( $retval );
+			}
+
 			return wp_make_content_images_responsive( $retval );
 		}
 
