@@ -29,9 +29,10 @@ The `[ucf-section]` shortcode has several options:
 
 ## Changelog ##
 
-### 2.0.0 ###
+### 1.2.0 ###
 Bug Fixes:
 * Replaces `wp_make_content_images_responsive` with `wp_filter_content_tags`, which was introduced in WP 5.5.
+* Keeps call to the old function if the new one doesn't exist for backwards compatibility.
 
 ### 1.1.3 ###
 Enhancements:
