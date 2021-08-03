@@ -1,9 +1,9 @@
 === UCF Sections ===
 Contributors: ucfwebcom
 Tags: ucf, sections
-Requires at least: 4.7.5
-Tested up to: 5.3
-Stable Tag: 1.1.3
+Requires at least: 5.5.0
+Tested up to: 5.8
+Stable Tag: 2.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
@@ -35,6 +35,10 @@ The `[ucf-section]` shortcode has several options:
 
 
 == Changelog ==
+
+= 2.0.0 =
+Bug Fixes:
+* Replaces `wp_make_content_images_responsive` with `wp_filter_content_tags`, which was introduced in WP 5.5.
 
 = 1.1.3 =
 Enhancements:
