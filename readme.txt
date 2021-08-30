@@ -1,7 +1,7 @@
 === UCF Sections ===
 Contributors: ucfwebcom
 Tags: ucf, sections
-Requires at least: 5.5.0
+Requires at least: 4.7.5
 Tested up to: 5.8
 Stable Tag: 1.2.0
 License: GPLv3 or later
