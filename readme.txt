@@ -3,7 +3,7 @@ Contributors: ucfwebcom
 Tags: ucf, sections
 Requires at least: 4.7.5
 Tested up to: 5.8
-Stable Tag: 1.2.0
+Stable Tag: 1.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/copyleft/gpl-3.0.html
 
