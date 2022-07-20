@@ -29,6 +29,10 @@ The `[ucf-section]` shortcode has several options:
 
 ## Changelog ##
 
+### 1.2.2 ###
+Bug Fixes:
+* Fixed issue where css was not added to colleges post type.
+
 ### 1.2.0 ###
 Bug Fixes:
 * Replaces `wp_make_content_images_responsive` with `wp_filter_content_tags`, which was introduced in WP 5.5.
