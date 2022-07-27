@@ -442,6 +442,10 @@ if ( ! class_exists( 'UCF_Section_Common' ) ) {
 				'scripts' => array()
 			);
 
+			if( $cta_section = get_field( 'college_page_cta_section', $object ) ) {
+				$object->sections['posts'] = array( $cta_section );
+			}
+
 			if ( count( $object->sections['posts'] ) < 1 ) return $object;
 
 			$object->sections['styles'] = self::get_post_section_styles( $object->sections['posts'] );
