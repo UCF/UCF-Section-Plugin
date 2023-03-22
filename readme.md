@@ -29,6 +29,10 @@ The `[ucf-section]` shortcode has several options:
 
 ## Changelog ##
 
+### 1.2.3 ###
+Enhancements:
+* Added composer file.
+
 ### 1.2.2 ###
 Bug Fixes:
 * Fixed issue where css was not added to colleges post type.
